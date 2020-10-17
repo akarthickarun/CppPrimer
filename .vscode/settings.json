@@ -1,5 +1,18 @@
 {
     "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js": true,
+        "**/*.js.map": true,
+        "**/bin": true,
+        "**/*.idb": true,
+        "**/ipch": true,
+        "**/*.pdb": true
+    },
     "files.associations": {
         "xstring": "cpp",
         "algorithm": "cpp",

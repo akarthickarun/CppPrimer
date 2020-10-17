@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/c++/10",
+                "/usr/include/x86_64-linux-gnu/c++/10",
+                "/usr/include/c++/10/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/10/include",
+                "/usr/local/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include",
+                "/usr/include/boost",
+                "${workspaceFolder}/**"
+            ],
+            "browse": {
+                "path": [
+                    "/usr/include/c++/10",
+                    "/usr/include/x86_64-linux-gnu/c++/10",
+                    "/usr/include/c++/10/backward",
+                    "/usr/lib/gcc/x86_64-linux-gnu/10/include",
+                    "/usr/local/include",
+                    "/usr/include/x86_64-linux-gnu",
+                    "/usr/include",
+                    "/usr/include/boost",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [],
+            "compilerPath": "/usr/bin/g++-10",
+            "cStandard": "c18",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
